@@ -1,0 +1,6 @@
+# Files to ignore wile committing to Version Control
+__pycache__/
+*.egg-info/
+.env
+.credentials
+
