@@ -36,3 +36,19 @@ requirements.txt
 ## License  
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## .gitignore file:
+
+ __pycache__ : This folder directory is created automatically when a python script is created which has import module added.
+ This __pycache__ folder contains .pyc file ie. compile python file.
+Since these are automatically created, it is often ignored in version control systems.
+
+
+*.egg-info/
+
+.env
+
+.credentials
+
+
