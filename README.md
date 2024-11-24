@@ -1,6 +1,6 @@
 
 # Shopping App
-This is a sample project to learn project structure.
+This is a sample project to learn Python project structure.
 
 ## Project Structure:
 
