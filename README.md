@@ -4,13 +4,33 @@ This is a sample project to learn Python project structure.
 
 ## Project Structure:
 
+shoppingapp/
+├── .gitignore
+├── configs/
+├── ├── index.py
+├── ├── settings.yaml
+├── LICENSE.md
+├── README.md
+├── requirements/
+├── ├── requirements.in
+├── ├── requirements.txt
+├── setup.py
+├── src/
+├── ├── main.py
+├── ├── utils/
+├── ├── ├── helper.py
+├── ├── ├── __init__.py
+├── ├── __init__.py
+├── tests/
+├── ├── test_main.py
+├── ├── __init__.py
 
 ##  Instructions
 
 1. Create a folder or directory - ShoppingApp
 2. Initialize the git: git init -b main
 3. Add ReadMe.MD File  with some information
-4. Add Folder Structure:
+4. Add Folder Structure
 
 configs: --> settings.yaml
 
