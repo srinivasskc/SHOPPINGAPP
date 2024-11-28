@@ -27,32 +27,31 @@ shoppingapp/
 ├── ├── __init__.py
 ```
 
-##  Instructions
+##  Installation
 
 1. Create a folder or directory - ShoppingApp
 2. Initialize the git: git init -b main
 3. Add ReadMe.MD File  with some information
 4. Add Folder Structure
 
-configs: --> settings.yaml
+ - configs -> settings.yaml
 
-src -> utils -> __init__.py, helper.py
+ - src -> utils -> __init__.py, helper.py
 
-src -> source code ->> main.py
+ - src -> source code ->> main.py
 
-tests -> __init__.py, test_main.py
+ - tests -> __init__.py, test_main.py
 
-venv -> virtualenvironment
+ - venv -> virtualenvironment
 
-setup.py -> python setup
+ - setup.py -> python folder structure
 
-LICENSE.md -> License details
+ - LICENSE.md -> License file
 
-README.md -> ReadMe details file.
+ - README.md -> ReadMe file.
 
-Install dependencies  
-requirements.in -> 
-requirements.txt
+ - Install dependencies  
+    - requirements.in ->  requirements.txt
 
 
 ## License  
@@ -61,16 +60,14 @@ requirements.txt
 
 
 ## .gitignore file:
-
+```sh
  __pycache__ : This folder directory is created automatically when a python script is created which has import module added.
  This __pycache__ folder contains .pyc file ie. compile python file.
 Since these are automatically created, it is often ignored in version control systems.
 
-
 *.egg-info/
-
 .env
-
 .credentials
+```
 
 
