@@ -6,52 +6,26 @@ This is a sample project to learn Python project structure.
 
 ```
 shoppingapp/
-├── .gitignore
+├── .gitignore                         # Git Ignore File
 ├── configs/
-├── ├── index.py
-├── ├── settings.yaml
-├── LICENSE.md
-├── README.md
-├── requirements/
+├── ├── index.py             
+├── ├── settings.yaml                   # Settings File
+├── LICENSE.md                          # Project License File
+├── README.md                           # Project Readme File
+├── requirements/                       # Dependencies for the Project
 ├── ├── requirements.in
 ├── ├── requirements.txt
-├── setup.py
+├── setup.py                            # Python Folder Structure Generator Code.
 ├── src/
-├── ├── main.py
+├── ├── main.py                         # Main Code.
 ├── ├── utils/
 ├── ├── ├── helper.py
-├── ├── ├── __init__.py
-├── ├── __init__.py
+├── ├── ├── __init__.py                 # Initialization file for configs.
+├── ├── __init__.py                     # Initialization file for source code.
 ├── tests/
-├── ├── test_main.py
-├── ├── __init__.py
+├── ├── test_main.py                    # Test Code.
+├── ├── __init__.py                     # Initialization file for tests.
 ```
-
-##  Installation
-
-1. Create a folder or directory - ShoppingApp
-2. Initialize the git: git init -b main
-3. Add ReadMe.MD File  with some information
-4. Add Folder Structure
-
- - configs -> settings.yaml
-
- - src -> utils -> __init__.py, helper.py
-
- - src -> source code ->> main.py
-
- - tests -> __init__.py, test_main.py
-
- - venv -> virtualenvironment
-
- - setup.py -> python folder structure
-
- - LICENSE.md -> License file
-
- - README.md -> ReadMe file.
-
- - Install dependencies  
-    - requirements.in ->  requirements.txt
 
 
 ## License  
