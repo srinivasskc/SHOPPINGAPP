@@ -4,6 +4,7 @@ This is a sample project to learn Python project structure.
 
 ## Project Structure:
 
+```
 shoppingapp/
 ├── .gitignore
 ├── configs/
@@ -24,6 +25,7 @@ shoppingapp/
 ├── tests/
 ├── ├── test_main.py
 ├── ├── __init__.py
+```
 
 ##  Instructions
 
